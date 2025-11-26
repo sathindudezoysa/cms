@@ -107,8 +107,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-800">Email Us</h3>
-                    <p className="text-gray-600">info@slalas.lk</p>
-                    <p className="text-gray-600">secretary@slalas.lk</p>
+                    <p className="text-gray-600">info@slaatsl.lk</p>
+                    <p className="text-gray-600">saatsrilanka@gmail.com</p>
                   </div>
                 </div>
 

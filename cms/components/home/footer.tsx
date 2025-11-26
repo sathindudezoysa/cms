@@ -21,7 +21,7 @@ const Footer = () => {
                     href="mailto:slajasad@gmail.com"
                     className="hover:text-blue-300"
                   >
-                    slajasad@gmail.com
+                    saatsrilanka@gmail.com
                   </a>
                 </p>
                 <p>Secretary/SLALAS</p>
