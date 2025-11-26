@@ -91,6 +91,7 @@ export default function CreatePost() {
               <option value="news">News</option>
               <option value="events">Event</option>
               <option value="publications">Publication</option>
+              <option value="conferences">Conference</option>
             </select>
           </div>
         </div>

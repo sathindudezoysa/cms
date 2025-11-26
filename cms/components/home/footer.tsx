@@ -33,22 +33,22 @@ const Footer = () => {
               <h3 className="text-xl font-semibold mb-4">QUICK LINKS</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#about" className="hover:text-blue-300">
+                  <a href="/about" className="hover:text-blue-300">
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a href="#events" className="hover:text-blue-300">
+                  <a href="/events" className="hover:text-blue-300">
                     Events
                   </a>
                 </li>
                 <li>
-                  <a href="#conference" className="hover:text-blue-300">
+                  <a href="/conference" className="hover:text-blue-300">
                     Conference
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="hover:text-blue-300">
+                  <a href="/contact" className="hover:text-blue-300">
                     Contact
                   </a>
                 </li>
@@ -59,7 +59,7 @@ const Footer = () => {
             <div>
               <h3 className="text-xl font-semibold mb-4">MEMBERSHIP</h3>
               <p className="mb-4">
-                Join SLALAS to be part of the laboratory animal science
+                Join SAATSL to be part of the laboratory animal science
                 community in Sri Lanka.
               </p>
               <button className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition duration-300">
@@ -70,7 +70,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-            <p>© 2024 SLALAS. All Rights Reserved</p>
+            <p>© 2024 SAATSL. All Rights Reserved</p>
           </div>
         </div>
       </div>

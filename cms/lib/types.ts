@@ -1,4 +1,4 @@
-export type Category = 'news' | 'event' | 'publication';
+export type Category = 'news' | 'events' | 'publications' | "conferences";
 
 export interface Post {
   id: string;
