@@ -14,7 +14,7 @@ import {
   orderBy,
 } from "firebase/firestore";
 import { auth, db } from "@/lib/firebase";
-import { Category, Post } from "@/lib/types";
+import { Category } from "@/lib/types";
 
 // Extend the category type locally to include 'messages'
 type AdminTab = Category | "messages";

@@ -8,7 +8,7 @@ export default function PublicationsPage() {
       <Header />
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold text-slate-900 mb-8">Publications</h1>
-        <PostFeed category="publication" />
+        <PostFeed category="publications" />
       </div>
       <Footer />
     </main>
