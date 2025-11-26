@@ -20,10 +20,10 @@ export default function CreatePost() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!imageUrl) {
-      alert("Please upload an image first.");
-      return;
-    }
+    // if (!imageUrl) {
+    //   alert("Please upload an image first.");
+    //   return;
+    // }
 
     setLoading(true);
 
@@ -72,7 +72,7 @@ export default function CreatePost() {
             <input
               type="text"
               required
-              className="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 outline-none"
+              className="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 outline-none text-black"
               placeholder="Enter post title"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
@@ -84,7 +84,7 @@ export default function CreatePost() {
               Category
             </label>
             <select
-              className="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 outline-none"
+              className="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 outline-none text-black"
               value={category}
               onChange={(e) => setCategory(e.target.value as Category)}
             >
@@ -103,7 +103,7 @@ export default function CreatePost() {
           <textarea
             required
             rows={6}
-            className="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 outline-none text-black"
             placeholder="Write your content here..."
             value={content}
             onChange={(e) => setContent(e.target.value)}
